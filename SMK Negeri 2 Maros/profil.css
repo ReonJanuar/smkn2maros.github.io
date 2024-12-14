@@ -1,0 +1,238 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #004085;
+    color: white;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-links li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Profil Section */
+.profil {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.profil h1 {
+    color: #0056b3;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+/* Card Styles */
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px auto; /* Jarak antar card dikurangi */
+    max-width: 1100px; /* Menyesuaikan lebar dengan elemen lain */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card h2 {
+    color: #e63946;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #333;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.card p, .card ul {
+    font-size: 24px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .card {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .profil h1 {
+        font-size: 28px;
+    }
+}
+
+/* Header Tabel */
+.card .header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card .header h2 {
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.card .header p {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px; /* Jarak atas tabel lebih kecil */
+}
+
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr.total {
+    background-color: #e3f2fd;
+    font-weight: bold;
+}
+
+/* Keterangan */
+.keterangan {
+    margin-top: 10px; /* Jarak dengan tabel lebih kecil */
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.keterangan strong {
+    color: #333;
+}
+
+.keterangan ul {
+    margin: 5px 0 0 20px;
+    list-style-type: disc;
+}
+
+.keterangan ul ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+/* Lokasi Section */
+.lokasi {
+    padding: 20px;
+    text-align: center;
+}
+
+.lokasi h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/* Info Section */
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.info-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.info-card i {
+    font-size: 24px;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.info-card p {
+    font-size: 14px;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 3px;
+    background: #0056b3;
+    color: white;
+}
+
+footer hr {
+    border: 0;
+    height: 5px;
+    background: red;
+}
+
+footer p {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
